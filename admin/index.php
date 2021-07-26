@@ -82,25 +82,10 @@ if ($_SESSION['level'] != 'admin') {
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="">Data Petugas</a>
-                        <a class="collapse-item" href="">Data Masyarakat</a>
-                        <a class="collapse-item" href="">Data Laporan</a>
-                        <a class="collapse-item" href="">Data Tanggapan</a>
-                    </div>
-                </div>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                    <i class="fas fa-fw fa-print"></i>
-                    <span>Laporan</span>
-                </a>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="">Laporan Petugas</a>
-                        <a class="collapse-item" href="">Laporan Masyarakat</a>
-                        <a class="collapse-item" href="">Laporan Laporan</a>
-                        <a class="collapse-item" href="">Laporan Tanggapan</a>
+                        <a class="collapse-item" href="?url=lihat_petugas">Data Petugas</a>
+                        <a class="collapse-item" href="?url=lihat_masyarakat">Data Masyarakat</a>
+                        <a class="collapse-item" href="?url=lihat_pengaduan">Data Pengaduan</a>
+                        <a class="collapse-item" href="?url=lihat_tanggapan">Data Tanggapan</a>
                     </div>
                 </div>
             </li>

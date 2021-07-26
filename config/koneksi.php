@@ -1,2 +1,2 @@
 <?php
-$koneksi = mysqli_connect('localhost', 'root', '', 'paket2');
+$koneksi = mysqli_connect('localhost', 'root', '', 'pengaduan_masyarakat');

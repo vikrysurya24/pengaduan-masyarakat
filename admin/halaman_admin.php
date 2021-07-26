@@ -9,8 +9,32 @@ if (isset($_GET['url'])) {
         case 'detail_pengaduan';
             include 'detail_pengaduan.php';
             break;
+        case 'detail_tanggapan';
+            include 'detail_tanggapan.php';
+            break;
         case 'tanggapan_pengaduan';
             include 'tanggapan_pengaduan.php';
+            break;
+        case 'lihat_petugas';
+            include 'lihat_petugas.php';
+            break;
+        case 'lihat_masyarakat';
+            include 'lihat_masyarakat.php';
+            break;
+        case 'lihat_pengaduan';
+            include 'lihat_pengaduan.php';
+            break;
+        case 'lihat_tanggapan';
+            include 'lihat_tanggapan.php';
+            break;
+        case 'tambah_petugas';
+            include 'tambah_petugas.php';
+            break;
+        case 'edit_petugas';
+            include 'edit_petugas.php';
+            break;
+        case 'delete_petugas';
+            include 'delete_petugas.php';
             break;
     }
 } else {
